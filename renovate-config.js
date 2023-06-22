@@ -1,19 +1,25 @@
-const branchName = 'github-renovate';
-
-const config = {
-  branchPrefix: `${branchName}/`,
-  dependencyDashboardTitle: 'Dependency Dashboard self-hosted',
+module.exports = {
+  branchPrefix: 'test-renovate/',
+  username: 'renovate-release',
   gitAuthor: 'Renovate Bot <bot@renovateapp.com>',
-  logLevel: 'debug',
-  onboarding: true,
-  onboardingBranch: `${branchName}/configure`,
+  onboarding: false,
   platform: 'github',
-  repositories: [],
+  includeForks: true,
+  dryRun: 'full',
+  repositories: ['renovate-tests/cocoapods1', 'renovate-tests/gomod1'],
+  packageRules: [
+    {
+      description: 'lockFileMaintenance',
+      matchUpdateTypes: [
+        'pin',
+        'digest',
+        'patch',
+        'minor',
+        'major',
+        'lockFileMaintenance',
+      ],
+      dependencyDashboardApproval: false,
+      stabilityDays: 0,
+    },
+  ],
 };
-
-/**
- * Export single object, according to the CommonJS model. The CommonJS module is
- * explicitly used here as that's the kind of module Renovate requires for its
- * configuration.
- */
-export = config;
