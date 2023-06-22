@@ -1,5 +1,5 @@
 module.exports = {
-  branchPrefix: 'test-renovate/',
+  branchPrefix: 'renovate/',
   username: 'bot',
   gitAuthor: 'Renovate Bot <bot@go2js.com>',
   onboarding: false,
