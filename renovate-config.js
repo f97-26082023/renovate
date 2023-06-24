@@ -10,7 +10,7 @@ module.exports = {
   ],
   packageRules: [
     {
-      automerge: true,
+      automerge: false,
       dependencyDashboardApproval: false,
       stabilityDays: 0,
     },
