@@ -4,6 +4,7 @@ module.exports = {
   endpoint: 'https://git.go2js.com/api/v1/',
   platform: 'gitea',
   repositories: [
+    'f97/gist',
     'f97/go2js.com',
     'phoenix/phoenix'
   ],
