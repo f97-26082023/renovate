@@ -9,6 +9,7 @@ module.exports = {
   ],
   packageRules: [
     {
+      automerge: true,
       dependencyDashboardApproval: false,
       stabilityDays: 0,
     },
