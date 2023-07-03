@@ -6,6 +6,7 @@ module.exports = {
   repositories: [
     'f97/gist',
     'f97/go2js.com',
+    'f97/wg',
     'phoenix/phoenix'
   ],
   packageRules: [
