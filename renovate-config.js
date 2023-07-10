@@ -7,6 +7,7 @@ module.exports = {
     'f97/gist',
     'f97/go2js.com',
     'f97/wg',
+    'f97/cors',
     'phoenix/phoenix'
   ],
   packageRules: [
