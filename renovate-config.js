@@ -1,10 +1,10 @@
 module.exports = {
-  username: 'bot',
-  gitAuthor: 'Renovate Bot <bot@go2js.com>',
+  username: 'f97',
+  gitAuthor: 'Renovate Bot <huynhduckhoan@gmail.com>',
   endpoint: 'https://git.go2js.com/api/v1/',
   platform: 'gitea',
   repositories: [
-    'f97/go2js.com',
+    'f97/f97.xyz',
   ],
   packageRules: [
     {
