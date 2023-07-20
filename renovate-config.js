@@ -6,6 +6,7 @@ module.exports = {
   labels: ["Kind/Dependencies"],
   repositories: [
     'f97/f97.xyz',
+    'f97/Dockerfile',
   ],
   packageRules: [
     {
