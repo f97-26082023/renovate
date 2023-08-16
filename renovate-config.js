@@ -1,7 +1,7 @@
 module.exports = {
   username: 'f97',
   gitAuthor: 'Renovate Bot <huynhduckhoan@gmail.com>',
-  endpoint: 'https://git.f97.xyz/api/v1/',
+  endpoint: 'https://g.f97.xyz/api/v1/',
   platform: 'gitea',
   labels: ["Kind/Dependencies"],
   repositories: [
